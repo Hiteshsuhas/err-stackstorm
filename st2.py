@@ -4,6 +4,8 @@ import logging
 import threading
 import traceback
 import requests
+import libconfig
+import lib
 from types import SimpleNamespace
 
 from errbot import BotPlugin, Command, re_botcmd, botcmd, arg_botcmd, webhook
